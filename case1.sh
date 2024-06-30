@@ -3,7 +3,7 @@
 read -p "Primer numero: " n1
 read -p "Segundo numero: " n2
 read -p "Operacion (+ - * /) " op
-
+#view
 case $op in
     '+')
 		echo $n1 + $n2 "=" $((n1+n2))
